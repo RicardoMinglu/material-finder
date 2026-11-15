@@ -1,0 +1,980 @@
+{
+  "mode": "quality",
+  "fresh": true,
+  "platform": "darwin",
+  "cpu": "Apple M4",
+  "memoryGiB": 16,
+  "seconds": 18.792350459,
+  "nativeSeconds": 3.0483329589999997,
+  "ocrSeconds": 15.744017500000002,
+  "peakProcessRssMiB": 943.90625,
+  "stats": {
+    "total": 40,
+    "ready": 40,
+    "queued": 0,
+    "indexing": 0,
+    "errors": 0,
+    "units": 123,
+    "ocrPending": 0,
+    "skipped": 0
+  },
+  "groups": {
+    "native": {
+      "total": 60,
+      "passed": 60,
+      "rate": 1
+    },
+    "ocr": {
+      "total": 46,
+      "passed": 46,
+      "rate": 1
+    },
+    "difficult": {
+      "total": 2,
+      "passed": 1,
+      "rate": 0.5
+    }
+  },
+  "results": [
+    {
+      "query": "档案编号 210000",
+      "file": "办公手册.pdf",
+      "page": 1,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210001",
+      "file": "办公手册.pdf",
+      "page": 2,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210002",
+      "file": "办公手册.pdf",
+      "page": 3,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210003",
+      "file": "办公手册.pdf",
+      "page": 4,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210004",
+      "file": "办公手册.pdf",
+      "page": 5,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210005",
+      "file": "办公手册.pdf",
+      "page": 6,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210006",
+      "file": "办公手册.pdf",
+      "page": 7,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210007",
+      "file": "办公手册.pdf",
+      "page": 8,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210008",
+      "file": "办公手册.pdf",
+      "page": 9,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210009",
+      "file": "办公手册.pdf",
+      "page": 10,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210010",
+      "file": "办公手册.pdf",
+      "page": 11,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210011",
+      "file": "办公手册.pdf",
+      "page": 12,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210012",
+      "file": "办公手册.pdf",
+      "page": 13,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210013",
+      "file": "办公手册.pdf",
+      "page": 14,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210014",
+      "file": "办公手册.pdf",
+      "page": 15,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210015",
+      "file": "办公手册.pdf",
+      "page": 16,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210016",
+      "file": "办公手册.pdf",
+      "page": 17,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210017",
+      "file": "办公手册.pdf",
+      "page": 18,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210018",
+      "file": "办公手册.pdf",
+      "page": 19,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210019",
+      "file": "办公手册.pdf",
+      "page": 20,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210020",
+      "file": "办公手册.pdf",
+      "page": 21,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210021",
+      "file": "办公手册.pdf",
+      "page": 22,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210022",
+      "file": "办公手册.pdf",
+      "page": 23,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210023",
+      "file": "办公手册.pdf",
+      "page": 24,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210024",
+      "file": "办公手册.pdf",
+      "page": 25,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210025",
+      "file": "办公手册.pdf",
+      "page": 26,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210026",
+      "file": "办公手册.pdf",
+      "page": 27,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210027",
+      "file": "办公手册.pdf",
+      "page": 28,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210028",
+      "file": "办公手册.pdf",
+      "page": 29,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210029",
+      "file": "办公手册.pdf",
+      "page": 30,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210030",
+      "file": "办公手册.pdf",
+      "page": 31,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210031",
+      "file": "办公手册.pdf",
+      "page": 32,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210032",
+      "file": "办公手册.pdf",
+      "page": 33,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210033",
+      "file": "办公手册.pdf",
+      "page": 34,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210034",
+      "file": "办公手册.pdf",
+      "page": 35,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210035",
+      "file": "办公手册.pdf",
+      "page": 36,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210036",
+      "file": "办公手册.pdf",
+      "page": 37,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210037",
+      "file": "办公手册.pdf",
+      "page": 38,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210038",
+      "file": "办公手册.pdf",
+      "page": 39,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 210039",
+      "file": "办公手册.pdf",
+      "page": 40,
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320000",
+      "file": "扫描档案.pdf",
+      "page": 1,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320001",
+      "file": "扫描档案.pdf",
+      "page": 2,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320002",
+      "file": "扫描档案.pdf",
+      "page": 3,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320003",
+      "file": "扫描档案.pdf",
+      "page": 4,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320004",
+      "file": "扫描档案.pdf",
+      "page": 5,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320005",
+      "file": "扫描档案.pdf",
+      "page": 6,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320006",
+      "file": "扫描档案.pdf",
+      "page": 7,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320007",
+      "file": "扫描档案.pdf",
+      "page": 8,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320008",
+      "file": "扫描档案.pdf",
+      "page": 9,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320009",
+      "file": "扫描档案.pdf",
+      "page": 10,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320010",
+      "file": "扫描档案.pdf",
+      "page": 11,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320011",
+      "file": "扫描档案.pdf",
+      "page": 12,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320012",
+      "file": "扫描档案.pdf",
+      "page": 13,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320013",
+      "file": "扫描档案.pdf",
+      "page": 14,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320014",
+      "file": "扫描档案.pdf",
+      "page": 15,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320015",
+      "file": "扫描档案.pdf",
+      "page": 16,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320016",
+      "file": "扫描档案.pdf",
+      "page": 17,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320017",
+      "file": "扫描档案.pdf",
+      "page": 18,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320018",
+      "file": "扫描档案.pdf",
+      "page": 19,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320019",
+      "file": "扫描档案.pdf",
+      "page": 20,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320020",
+      "file": "扫描档案.pdf",
+      "page": 21,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320021",
+      "file": "扫描档案.pdf",
+      "page": 22,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320022",
+      "file": "扫描档案.pdf",
+      "page": 23,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320023",
+      "file": "扫描档案.pdf",
+      "page": 24,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320024",
+      "file": "扫描档案.pdf",
+      "page": 25,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320025",
+      "file": "扫描档案.pdf",
+      "page": 26,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320026",
+      "file": "扫描档案.pdf",
+      "page": 27,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320027",
+      "file": "扫描档案.pdf",
+      "page": 28,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320028",
+      "file": "扫描档案.pdf",
+      "page": 29,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "档案编号 320029",
+      "file": "扫描档案.pdf",
+      "page": 30,
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430000",
+      "file": "图片笔记-0.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430001",
+      "file": "图片笔记-1.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430002",
+      "file": "图片笔记-2.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430003",
+      "file": "图片笔记-3.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430004",
+      "file": "图片笔记-4.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430005",
+      "file": "图片笔记-5.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430006",
+      "file": "图片笔记-6.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430007",
+      "file": "图片笔记-7.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430008",
+      "file": "图片笔记-8.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "资料编号 430009",
+      "file": "图片笔记-9.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540000",
+      "file": "项目记录-0.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540001",
+      "file": "项目记录-1.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540002",
+      "file": "项目记录-2.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540003",
+      "file": "项目记录-3.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540004",
+      "file": "项目记录-4.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540005",
+      "file": "项目记录-5.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540006",
+      "file": "项目记录-6.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540007",
+      "file": "项目记录-7.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540008",
+      "file": "项目记录-8.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "项目编号 540009",
+      "file": "项目记录-9.docx",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650000",
+      "file": "历史记录-0.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650001",
+      "file": "历史记录-1.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650002",
+      "file": "历史记录-2.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650003",
+      "file": "历史记录-3.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650004",
+      "file": "历史记录-4.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650005",
+      "file": "历史记录-5.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650006",
+      "file": "历史记录-6.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650007",
+      "file": "历史记录-7.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650008",
+      "file": "历史记录-8.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "记录编号 650009",
+      "file": "历史记录-9.doc",
+      "group": "native",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "图片编号 760000",
+      "file": "内嵌图片-0.docx",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "图片编号 760001",
+      "file": "内嵌图片-1.docx",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "图片编号 760002",
+      "file": "内嵌图片-2.docx",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "图片编号 760003",
+      "file": "内嵌图片-3.docx",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "图片编号 760004",
+      "file": "内嵌图片-4.docx",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "长图编号 870031",
+      "file": "长图笔记.png",
+      "group": "ocr",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "困难样本编号 980001",
+      "file": "困难样本.png",
+      "group": "difficult",
+      "passed": true,
+      "rank": 1,
+      "hits": 1
+    },
+    {
+      "query": "变形编号 980002",
+      "file": "变形扫描.pdf",
+      "page": 1,
+      "group": "difficult",
+      "passed": false,
+      "rank": null,
+      "hits": 0
+    }
+  ],
+  "ocrUnitsPerSecond": 2.921744719859464,
+  "indexAndCacheBytes": 7210440,
+  "fileErrors": [],
+  "networkBlocked": true,
+  "networkPolicy": "macOS sandbox-exec: (version 1) (allow default) (deny network-outbound)"
+}

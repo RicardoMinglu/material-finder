@@ -1,0 +1,17 @@
+node_modules/
+dist/
+release/
+artifacts/
+output/
+resources/ocr/*.traineddata
+*.sqlite*
+.DS_Store
+
+work/
+.env*
+!.env.example
+build/store-identity.json
+*.pem
+*.p12
+*.pfx
+*.key

@@ -1,0 +1,116 @@
+{
+  "name": "material-finder",
+  "productName": "资料快搜",
+  "version": "1.1.0-rc.1",
+  "private": true,
+  "description": "离线搜索中文 PDF、扫描件、图片和 Word，直接定位原文。",
+  "author": "Material Finder",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "dev": "npm run build && electron .",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "start": "electron .",
+    "assets": "node scripts/fetch-ocr.mjs",
+    "pack:mac": "node scripts/check-mac-runtime.mjs && npm run build && electron-builder --mac dmg --arm64 --config.electronDist=node_modules/electron/dist --publish never",
+    "pack:win": "npm run build && electron-builder --win nsis --x64 --publish never",
+    "store:check": "node scripts/package-store.mjs --check",
+    "pack:store": "node scripts/package-store.mjs",
+    "pack:store:dir": "node scripts/package-store.mjs --dir",
+    "store:verify": "node scripts/verify-store-package.mjs",
+    "corpus": "node --import tsx scripts/validate-corpus.ts",
+    "smoke": "node scripts/smoke-electron.mjs",
+    "fixtures:quality": "node scripts/fixtures.mjs quality",
+    "fixtures:scale": "node scripts/fixtures.mjs scale",
+    "validate:quality": "node --import tsx scripts/validate-release.ts quality",
+    "validate:scale": "node --import tsx scripts/validate-release.ts scale",
+    "benchmark:ui": "node scripts/benchmark-ui.mjs",
+    "demo": "node scripts/capture-public-demo.mjs",
+    "checksums": "node scripts/checksums.mjs",
+    "smoke:offline": "node scripts/offline-smoke.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.13",
+    "chokidar": "^4.0.3",
+    "fast-xml-parser": "^5.2.5",
+    "fflate": "^0.8.2",
+    "pdfjs-dist": "6.4.299",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "rtf-parser": "1.3.3",
+    "tesseract.js": "7.0.0",
+    "word-extractor": "1.0.4"
+  },
+  "devDependencies": {
+    "@pdf-lib/fontkit": "1.1.1",
+    "@tesseract.js-data/chi_sim": "^1.0.0",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "electron": "45.0.0",
+    "electron-builder": "26.15.3",
+    "esbuild": "^0.27.0",
+    "pdf-lib": "1.17.1",
+    "playwright": "^1.56.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0"
+  },
+  "build": {
+    "appId": "cn.ltkeep.materialfinder",
+    "productName": "资料快搜",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json",
+      "LICENSE",
+      "THIRD-PARTY-NOTICES.md"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/ocr",
+        "to": "ocr"
+      }
+    ],
+    "asarUnpack": [
+      "node_modules/**/*"
+    ],
+    "npmRebuild": false,
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.productivity",
+      "identity": null,
+      "artifactName": "MaterialFinder-${version}-mac-${arch}.${ext}",
+      "icon": "resources/icon.icns"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "MaterialFinder-${version}-win-${arch}.${ext}",
+      "icon": "resources/icon.ico",
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "installerLanguages": [
+        "zh_CN",
+        "en_US"
+      ],
+      "language": "2052"
+    }
+  },
+  "engines": {
+    "node": ">=24.11.0 <25"
+  }
+}

@@ -1,0 +1,53 @@
+name: Build candidate installers
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            target: win
+          - os: macos-15
+            target: mac
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 45
+    env:
+      CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.11.1'
+          cache: npm
+      - run: npm ci
+      - run: npm run assets
+      - run: npm run typecheck
+      - run: npm test
+      - if: matrix.target == 'win'
+        run: node scripts/prepare-win-runtime.mjs
+      - run: npm run pack:${{ matrix.target }}
+      - if: matrix.target == 'win'
+        run: node scripts/prepare-win-runtime.mjs --verify-packaged release/win-unpacked
+      - name: Test packaged desktop
+        shell: bash
+        run: |
+          if [ '${{ matrix.target }}' = win ]; then
+            export MATERIAL_FINDER_EXECUTABLE="$PWD/release/win-unpacked/资料快搜.exe"
+          else
+            export MATERIAL_FINDER_EXECUTABLE="$PWD/release/mac-arm64/资料快搜.app/Contents/MacOS/资料快搜"
+          fi
+          node scripts/smoke-electron.mjs
+      - run: node scripts/checksums.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MaterialFinder-${{ matrix.target }}-candidate
+          path: |
+            release/*.exe
+            release/*.dmg
+            release/SHA256SUMS.txt
+            output/playwright/*/smoke-results.json
+          if-no-files-found: error
+          retention-days: 14

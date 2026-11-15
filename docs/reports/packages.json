@@ -1,0 +1,24 @@
+[
+  {
+    "platform": "mac",
+    "version": "1.1.0-rc.1",
+    "archiveEntries": 1278,
+    "allowlistPassed": true,
+    "sourceBundlesMatch": true,
+    "ocrModelsMatch": true,
+    "mainThreadHasNoSqlite": true,
+    "nativeRuntime": "ARM64 runtime build guard passed",
+    "runtimeAcceptance": "see macos-installed.json and macos-offline.json"
+  },
+  {
+    "platform": "windows",
+    "version": "1.1.0-rc.1",
+    "archiveEntries": 1278,
+    "allowlistPassed": true,
+    "sourceBundlesMatch": true,
+    "ocrModelsMatch": true,
+    "mainThreadHasNoSqlite": true,
+    "nativeRuntime": "Windows x64 PE checked",
+    "runtimeAcceptance": "pending native Windows testing"
+  }
+]

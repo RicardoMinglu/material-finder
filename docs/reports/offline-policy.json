@@ -1,0 +1,6 @@
+{
+  "policy": "(version 1) (allow default) (deny network-outbound (remote ip \"*:*\")) (allow network-outbound (remote ip \"localhost:*\"))",
+  "externalFetchBlocked": true,
+  "probe": "EPERM",
+  "scope": "Node, Electron, utility processes and OCR descendants; loopback allowed only for automation"
+}

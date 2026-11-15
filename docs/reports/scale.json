@@ -1,0 +1,884 @@
+{
+  "mode": "scale",
+  "platform": "darwin",
+  "cpu": "Apple M4",
+  "memoryGiB": 16,
+  "seconds": 83.39964408300001,
+  "nativeSeconds": 83.39964408300001,
+  "ocrSeconds": 0,
+  "peakProcessRssMiB": 540.375,
+  "stats": {
+    "total": 100,
+    "ready": 100,
+    "queued": 0,
+    "indexing": 0,
+    "errors": 0,
+    "units": 10000,
+    "ocrPending": 0,
+    "skipped": 0
+  },
+  "queries": [
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 120,
+      "elapsedMs": 15.518875000008848
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 351.9167080000043
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 211.27508300000045
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 154.51229200001399
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.4825410000048578
+    },
+    {
+      "text": "页面编号 200005",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 2.2154580000060378
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 14.460207999989507
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 76.27058399999805
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 209.79950000000827
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 117.67629200000374
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.3978330000099959
+    },
+    {
+      "text": "页面编号 200011",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.7438750000001164
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 12.835999999995693
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 180.42091600000276
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 77.15112500000396
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 117.989167000007
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.9662499999976717
+    },
+    {
+      "text": "页面编号 200017",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 1.3152079999999842
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 11.212916999997105
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 162.5894169999956
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 222.58745900000213
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 39.61187500000233
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.37720799999078736
+    },
+    {
+      "text": "页面编号 200023",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.5431249999965075
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 8.887208999993163
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 170.3801669999957
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 203.0700829999987
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 123.99545800000487
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 0,
+      "elapsedMs": 0.33541600000171456
+    },
+    {
+      "text": "页面编号 200029",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.47908299999835435
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 11.803458999987924
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 158.15170899999794
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 204.1335420000105
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 123.54116700000304
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.2319160000042757
+    },
+    {
+      "text": "页面编号 200035",
+      "offset": 90,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 0,
+      "elapsedMs": 0.548625000010361
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 13.041666999997688
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 161.31016700000328
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 249.5993749999907
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 193.62291599999298
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.20724999999220017
+    },
+    {
+      "text": "页面编号 200041",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.5929160000086995
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 120,
+      "elapsedMs": 7.2814999999973224
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 176.95779099999345
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 217.82291600000462
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 120.14004199999908
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.37637500000710133
+    },
+    {
+      "text": "页面编号 200047",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.8346659999951953
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 9.749792000002344
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 69.15858300001128
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 197.0460410000087
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 127.18433300001197
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.29204200000094716
+    },
+    {
+      "text": "页面编号 200053",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 1.329249999995227
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 14.466125000006286
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 166.7132500000007
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 83.04820800000743
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 115.38633400000981
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.2908750000060536
+    },
+    {
+      "text": "页面编号 200059",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.3265840000094613
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 8.369791999997688
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 161.06466599999112
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 198.68133300000045
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 34.54437499999767
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.22858300000370946
+    },
+    {
+      "text": "页面编号 200065",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.7100409999984549
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 11.435416000007535
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 165.5236670000013
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 195.25795800000196
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 133.67812499999127
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 0,
+      "elapsedMs": 0.7249579999916023
+    },
+    {
+      "text": "页面编号 200071",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 2.14779199998884
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 18.303750000006403
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 169.71354100000462
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 196.7094999999972
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 121.78858300000138
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.2323750000068685
+    },
+    {
+      "text": "页面编号 200077",
+      "offset": 30,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 0,
+      "elapsedMs": 0.4958750000077998
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 11.135458000004292
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 159.33683300000848
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 189.77529200000572
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 116.86704100000497
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.30820800000219606
+    },
+    {
+      "text": "页面编号 200083",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.664082999996026
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 120,
+      "elapsedMs": 6.282542000000831
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 159.6994999999879
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 202.91579100000672
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 123.05704099999275
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.2992499999963911
+    },
+    {
+      "text": "页面编号 200089",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.5807910000003176
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 11.747667000003275
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 62.52595899999142
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 194.65208300000813
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 123.31100000000151
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.31766599998809397
+    },
+    {
+      "text": "页面编号 200095",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.7787089999910677
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 12.817625000010594
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 161.596292000002
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 81.31370899999456
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 128.50974999999744
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.3003340000141179
+    },
+    {
+      "text": "页面编号 200101",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.3347500000090804
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 11.835500000001048
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 162.306625000012
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 198.71450000000186
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 2000,
+      "elapsedMs": 34.64079099999799
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.3758749999979045
+    },
+    {
+      "text": "页面编号 200107",
+      "offset": 90,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.4995829999970738
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 0,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 10.531666000009864
+    },
+    {
+      "text": "资料",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 164.70870899999863
+    },
+    {
+      "text": "采购 审批",
+      "offset": 60,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 192.832917000007
+    },
+    {
+      "text": "历史记录",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 122.20745800000441
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 0,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 0,
+      "elapsedMs": 0.27616600001056213
+    },
+    {
+      "text": "页面编号 200113",
+      "offset": 30,
+      "limit": 30,
+      "total": 1,
+      "elapsedMs": 0.34504200000083074
+    },
+    {
+      "text": "保密协议解除条件",
+      "offset": 60,
+      "limit": 30,
+      "total": 600,
+      "elapsedMs": 12.65733299999556
+    },
+    {
+      "text": "资料",
+      "offset": 90,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 164.19229199999245
+    },
+    {
+      "text": "采购 审批",
+      "offset": 0,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 202.999834000002
+    },
+    {
+      "text": "历史记录",
+      "offset": 30,
+      "limit": 30,
+      "total": 10000,
+      "elapsedMs": 114.17329199999222
+    },
+    {
+      "text": "不存在的文档内容",
+      "offset": 60,
+      "limit": 30,
+      "total": 0,
+      "elapsedMs": 0.25829100000555627
+    },
+    {
+      "text": "页面编号 200119",
+      "offset": 90,
+      "limit": 30,
+      "folder": "分类1",
+      "total": 1,
+      "elapsedMs": 0.42812500000582077
+    }
+  ],
+  "queryP95Ms": 204.1335420000105,
+  "measurement": "core query only; UI benchmark is separate",
+  "indexAndCacheBytes": 166071243,
+  "fileErrors": []
+}

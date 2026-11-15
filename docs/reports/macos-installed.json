@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "timestamp": "2026-11-15T15:12:21.670Z",
+  "platform": "darwin",
+  "packaged": true,
+  "fixtureMode": "generated",
+  "stateWaits": "awaited IPC polling",
+  "copyCitation": true,
+  "rootSwitchCancelAndConfirm": true,
+  "utilityCrashRecovery": true,
+  "networkBlocked": false,
+  "preservedPreviewDuringOcr": true,
+  "screenshots": "<project>/output/playwright/packaged",
+  "canvasStats": {
+    "width": 685,
+    "height": 887
+  },
+  "externalRequests": [],
+  "rendererErrors": [],
+  "state": {
+    "library": {
+      "rootPath": "<project>/artifacts/alternate-library",
+      "name": "alternate-library",
+      "missing": false
+    },
+    "counts": {
+      "pdf": 0,
+      "image": 0,
+      "word": 0
+    },
+    "revision": "4:0",
+    "folders": [],
+    "progress": {
+      "phase": "idle"
+    },
+    "stats": {
+      "total": 0,
+      "ready": 0,
+      "queued": 0,
+      "indexing": 0,
+      "errors": 0,
+      "units": 0,
+      "ocrPending": 0,
+      "skipped": 0
+    }
+  }
+}

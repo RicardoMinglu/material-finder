@@ -1,0 +1,20 @@
+name: 问题反馈 / Bug report
+description: 报告可复现的问题；请勿上传私人资料。
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 软件版本、操作系统与硬件 / Environment
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤、预期与实际结果 / Steps and results
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: 可公开的最小示例 / Public minimal sample
+      description: 不要附带个人资料、完整索引、账号或私有路径。

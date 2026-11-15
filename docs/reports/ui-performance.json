@@ -1,0 +1,571 @@
+{
+  "platform": "darwin",
+  "packaged": false,
+  "queryCount": 120,
+  "p50Ms": 33.10000002384186,
+  "p95Ms": 199.40000000596046,
+  "maxMs": 247,
+  "gateMs": 500,
+  "passed": true,
+  "measurement": "Renderer IPC submission to committed result DOM at next animation frame; excludes 180ms input debounce and PDF render.",
+  "results": [
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 33.10000002384186
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 184.2000000178814
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 177.5
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 111
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 9.5
+    },
+    {
+      "query": "页面编号 200005",
+      "elapsedMs": 9.099999994039536
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30.700000017881393
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 165.5
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 179.19999998807907
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 111.09999999403954
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 7.800000011920929
+    },
+    {
+      "query": "页面编号 200011",
+      "elapsedMs": 8.800000011920929
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 28.900000005960464
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 182.89999997615814
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 195.90000000596046
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 128.5
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 6.5999999940395355
+    },
+    {
+      "query": "页面编号 200017",
+      "elapsedMs": 14
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 29.799999982118607
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 149.5
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 180.7000000178814
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 113.7000000178814
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 8.799999982118607
+    },
+    {
+      "query": "页面编号 200023",
+      "elapsedMs": 9.200000017881393
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30.80000001192093
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 197.09999999403954
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 179.09999999403954
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 115.40000000596046
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 8.900000005960464
+    },
+    {
+      "query": "页面编号 200029",
+      "elapsedMs": 10.200000017881393
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30.700000017881393
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 149.2000000178814
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 247
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 127
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 7.5999999940395355
+    },
+    {
+      "query": "页面编号 200035",
+      "elapsedMs": 6.200000017881393
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 231.7999999821186
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 244
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 146.7999999821186
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 5.300000011920929
+    },
+    {
+      "query": "页面编号 200041",
+      "elapsedMs": 7.300000011920929
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 32.79999998211861
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 197
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 212.40000000596046
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 125.40000000596046
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 9.099999994039536
+    },
+    {
+      "query": "页面编号 200047",
+      "elapsedMs": 10.200000017881393
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 31.099999994039536
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 163.40000000596046
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 179.09999999403954
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 114.60000002384186
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 7.699999988079071
+    },
+    {
+      "query": "页面编号 200053",
+      "elapsedMs": 12.099999994039536
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 31.600000023841858
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 196
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 199.40000000596046
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 112.59999999403954
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 9.799999982118607
+    },
+    {
+      "query": "页面编号 200059",
+      "elapsedMs": 10.599999994039536
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 15
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 163.40000000596046
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 198.5
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 131.09999999403954
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 8.5
+    },
+    {
+      "query": "页面编号 200065",
+      "elapsedMs": 10.100000023841858
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 26.30000001192093
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 163.5
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 199.80000001192093
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 130.89999997615814
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 12
+    },
+    {
+      "query": "页面编号 200071",
+      "elapsedMs": 12.900000005960464
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 31.299999982118607
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 163.30000001192093
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 180.90000000596046
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 126.40000000596046
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 8.800000011920929
+    },
+    {
+      "query": "页面编号 200077",
+      "elapsedMs": 11.5
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 31.400000005960464
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 194.69999998807907
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 190.09999999403954
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 113.7000000178814
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 8.5
+    },
+    {
+      "query": "页面编号 200083",
+      "elapsedMs": 9.200000017881393
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 29.400000005960464
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 164.80000001192093
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 196.19999998807907
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 114.80000001192093
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 8.700000017881393
+    },
+    {
+      "query": "页面编号 200089",
+      "elapsedMs": 12.599999994039536
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 31.80000001192093
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 166
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 198.09999999403954
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 115.59999999403954
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 9.199999988079071
+    },
+    {
+      "query": "页面编号 200095",
+      "elapsedMs": 9.699999988079071
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30.5
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 149.69999998807907
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 182.5
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 113.40000000596046
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 9.099999994039536
+    },
+    {
+      "query": "页面编号 200101",
+      "elapsedMs": 12.600000023841858
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30.19999998807907
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 198.2999999821186
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 179.80000001192093
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 113.90000000596046
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 10.800000011920929
+    },
+    {
+      "query": "页面编号 200107",
+      "elapsedMs": 11
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 30.400000005960464
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 162.30000001192093
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 196.39999997615814
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 115.09999999403954
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 12.299999982118607
+    },
+    {
+      "query": "页面编号 200113",
+      "elapsedMs": 9.600000023841858
+    },
+    {
+      "query": "保密协议解除条件",
+      "elapsedMs": 29.599999994039536
+    },
+    {
+      "query": "资料",
+      "elapsedMs": 158.39999997615814
+    },
+    {
+      "query": "采购 审批",
+      "elapsedMs": 232.59999999403954
+    },
+    {
+      "query": "历史记录",
+      "elapsedMs": 128.59999999403954
+    },
+    {
+      "query": "找不到的内容编号",
+      "elapsedMs": 9.900000005960464
+    },
+    {
+      "query": "页面编号 200119",
+      "elapsedMs": 8.599999994039536
+    }
+  ],
+  "metrics": [
+    {
+      "type": "Browser",
+      "memory": {
+        "workingSetSize": 165008,
+        "peakWorkingSetSize": 181568
+      },
+      "cpu": {
+        "cumulativeCPUUsage": 4.100818,
+        "percentCPUUsage": 0,
+        "idleWakeupsPerSecond": 0
+      }
+    },
+    {
+      "type": "GPU",
+      "memory": {
+        "workingSetSize": 88352,
+        "peakWorkingSetSize": 101616
+      },
+      "cpu": {
+        "cumulativeCPUUsage": 5.446096,
+        "percentCPUUsage": 0,
+        "idleWakeupsPerSecond": 0
+      }
+    },
+    {
+      "type": "Utility",
+      "name": "Network Service",
+      "memory": {
+        "workingSetSize": 41472,
+        "peakWorkingSetSize": 44832
+      },
+      "cpu": {
+        "cumulativeCPUUsage": 0.223023,
+        "percentCPUUsage": 0,
+        "idleWakeupsPerSecond": 0
+      }
+    },
+    {
+      "type": "Utility",
+      "name": "资料快搜 · 文档索引",
+      "memory": {
+        "workingSetSize": 79488,
+        "peakWorkingSetSize": 98624
+      },
+      "cpu": {
+        "cumulativeCPUUsage": 0.339409,
+        "percentCPUUsage": 0,
+        "idleWakeupsPerSecond": 0
+      }
+    },
+    {
+      "type": "Utility",
+      "name": "资料快搜 · 资料查询",
+      "memory": {
+        "workingSetSize": 86704,
+        "peakWorkingSetSize": 98016
+      },
+      "cpu": {
+        "cumulativeCPUUsage": 9.700672,
+        "percentCPUUsage": 0,
+        "idleWakeupsPerSecond": 0
+      }
+    },
+    {
+      "type": "Tab",
+      "memory": {
+        "workingSetSize": 259488,
+        "peakWorkingSetSize": 291024
+      },
+      "cpu": {
+        "cumulativeCPUUsage": 29.627964,
+        "percentCPUUsage": 0,
+        "idleWakeupsPerSecond": 0
+      }
+    }
+  ],
+  "rendererErrors": []
+}

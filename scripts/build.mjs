@@ -1,0 +1,12 @@
+import { build as bundle } from 'esbuild';
+import { build as viteBuild } from 'vite';
+import { cp, mkdir, rm } from 'node:fs/promises';
+import path from 'node:path';
+const root = process.cwd();
+await rm(path.join(root, 'dist'), { recursive: true, force: true });
+await bundle({ entryPoints: ['src/main/main.ts', 'src/main/index-worker.ts', 'src/main/query-worker.ts'], bundle: true, packages: 'external', platform: 'node', format: 'esm', target: 'node24', outdir: 'dist/main', sourcemap: true });
+await bundle({ entryPoints: ['src/main/preload.ts'], bundle: true, platform: 'node', format: 'cjs', external: ['electron'], target: 'node24', outfile: 'dist/main/preload.cjs' });
+await viteBuild({ root: path.join(root, 'src/renderer'), base: './', build: { outDir: path.join(root, 'dist/renderer'), emptyOutDir: true, chunkSizeWarningLimit: 1200 } });
+await mkdir('dist/renderer/pdfjs', { recursive: true });
+for (const name of ['cmaps', 'standard_fonts', 'wasm']) await cp(`node_modules/pdfjs-dist/${name}`, `dist/renderer/pdfjs/${name}`, { recursive: true });
+console.log('Built desktop application.');
