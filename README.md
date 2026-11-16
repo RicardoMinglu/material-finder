@@ -24,7 +24,7 @@
 | 下载 | 适用环境 | 验证状态 |
 |---|---|---|
 | [Mac 安装包（177 MiB）](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-mac-arm64.dmg) | Apple Silicon（M 系列） | 本机安装包运行、OCR 和断网测试通过 |
-| [Windows 候选包（154 MiB）](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-win-x64.exe) | Windows 10/11 x64 | 手工安装、升级、断网及高缩放验收待完成 |
+| [Windows 候选包（154 MiB）](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-win-x64.exe) | Windows 10/11 x64 | CI 同源打包应用运行通过；手工安装、升级、断网及高缩放待验收 |
 
 [版本说明及校验文件](https://github.com/RicardoMinglu/material-finder/releases/tag/v1.1.0-rc.1) · [29 秒演示视频](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo.mp4) · [原创演示资料](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo-fixtures.zip) · [安装与常见问题](docs/faq.md)
 

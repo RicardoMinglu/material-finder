@@ -18,7 +18,7 @@ Material Finder is a desktop application for finding text in documents already o
 | Download | Platform | Validation status |
 |---|---|---|
 | [Mac installer (177 MiB)](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-mac-arm64.dmg) | Apple Silicon | Packaged runtime, OCR and network-blocked tests passed locally |
-| [Windows candidate (154 MiB)](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-win-x64.exe) | Windows 10/11 x64 | Manual installation, upgrade, offline and high-DPI acceptance pending |
+| [Windows candidate (154 MiB)](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-win-x64.exe) | Windows 10/11 x64 | Same-source packaged app passed CI runtime tests; manual installation, upgrade, offline and high-DPI acceptance pending |
 
 [Release notes and checksums](https://github.com/RicardoMinglu/material-finder/releases/tag/v1.1.0-rc.1) · [29-second demo](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo.mp4) · [Original demo documents](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo-fixtures.zip) · [Installation FAQ](docs/faq.md)
 

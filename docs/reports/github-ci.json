@@ -1,0 +1,153 @@
+{
+  "recordedDate": "2026-11-16",
+  "sourceCommit": "da190b339d30d591ef49dde788aa033fae354c21",
+  "url": "https://github.com/RicardoMinglu/material-finder/actions/runs/43798988806",
+  "createdAt": "2026-11-16T03:34:29Z",
+  "updatedAt": "2026-11-16T03:37:12Z",
+  "conclusion": "success",
+  "scope": "Fresh dependency install, typecheck, tests, platform-native packaging, unpacked packaged desktop automation, checksum generation and CI artifact upload. Not manual installer/upgrade/high-DPI/offline Windows acceptance. Public prerelease binaries were previously built locally from identical application runtime source.",
+  "jobs": [
+    {
+      "name": "build (macos-15, mac)",
+      "conclusion": "success",
+      "url": "https://github.com/RicardoMinglu/material-finder/actions/runs/43798988806/job/133074318816",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run assets",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run typecheck",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm test",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node scripts/prepare-win-runtime.mjs",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run npm run pack:mac",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node scripts/prepare-win-runtime.mjs --verify-packaged release/win-unpacked",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Test packaged desktop",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node scripts/checksums.mjs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "build (windows-latest, win)",
+      "conclusion": "success",
+      "url": "https://github.com/RicardoMinglu/material-finder/actions/runs/43798988806/job/133074319140",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run assets",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run typecheck",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm test",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node scripts/prepare-win-runtime.mjs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run pack:win",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node scripts/prepare-win-runtime.mjs --verify-packaged release/win-unpacked",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test packaged desktop",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node scripts/checksums.mjs",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

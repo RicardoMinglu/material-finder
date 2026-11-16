@@ -52,6 +52,14 @@ Mac 开发应用、打包应用及最终 DMG 经只读挂载后复制出的应�
 
 从 Git 暂存源码导出全新目录，执行 `npm ci`、OCR 资源提取、类型检查、46 项测试与构建，全部通过。所有生成的 dist 文件与候选包对应构建逐字节一致。本项跳过 Electron 二进制下载；安装包实际运行验证另行完成。见 [clean-build.json](reports/clean-build.json)。
 
-Windows x64 安装包在 Mac 交叉生成，核对 PE 架构、Canvas、OCR/PDF 资源和校验值。尚未在 Windows 实机执行：安装/升级、断网运行、100%/150%/200% 缩放、卸载；不得将交叉构建写成 Windows 实机通过。
+Windows x64 安装包在 Mac 交叉生成，核对 PE 架构、Canvas、OCR/PDF 资源和校验值。尚未在 Windows 用户电脑手工执行：安装/升级、断网运行、100%/150%/200% 缩放、卸载；不得将交叉构建写成 Windows 实机通过。
 
 候选版本未签名、未公证。2026-11-16 补充：公开仓库的 [GitHub 源码检查](https://github.com/RicardoMinglu/material-finder/actions/runs/43733118542) 已在 Windows 和 macOS 通过依赖安装、资源提取、类型检查、测试和构建。该检查不等于安装包手工验收。预发布下载入口见 README；官网与商店未发布。真实用户试用和持续数日运行仍是后续验证。
+
+## GitHub 双平台打包与运行检查（2026-11-16）
+
+[构建运行 43798988806](https://github.com/RicardoMinglu/material-finder/actions/runs/43798988806) 在 `macos-15` Apple Silicon 与 `windows-latest` x64 runner 上全部通过：干净依赖安装、类型检查、46 项测试、DMG/EXE 生成、打包应用自动化运行、校验文件生成及 CI 附件上传。摘要见 [github-ci.json](reports/github-ci.json)。
+
+运行检查使用该次 CI 的 `mac-arm64` / `win-unpacked` 应用，覆盖 PDF/Word/图片、OCR 与高亮、复制出处、切换目录取消/确认、进程故障恢复及 800×600 窗口。它没有运行安装向导，也没有验证 Windows 的 OS 断网、高 DPI、旧版安装升级和卸载。
+
+公开预发布附件仍为先前在本机验证并生成的文件；CI 对同源运行时代码重新构建并测试。发布前已核对 GitHub 附件的 SHA-256 与本地一致。运行时代码及锁文件未变；本次修复仅让 Mac 构建脚本适应 Electron 45 首次使用才下载运行时的行为，并补充发布文档。
