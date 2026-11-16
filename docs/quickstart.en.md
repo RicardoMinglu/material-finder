@@ -1,6 +1,6 @@
 # Quick start
 
-1. Verify SHA-256 and the test status of the Windows x64 EXE or Mac ARM64 DMG candidate.
+1. Download a Windows x64 EXE or Mac ARM64 DMG from the [prerelease page](https://github.com/RicardoMinglu/material-finder/releases/tag/v1.1.0-rc.1), then verify SHA-256 and the platform test status.
 2. Install and launch. Builds are unsigned; follow your OS's opening flow only after verifying the source.
 3. Click “选择资料文件夹” to select one root. Subfolders are included. Native text becomes searchable before OCR finishes.
 4. Enter a phrase or space-separated keywords. Every keyword must match. Filter by file type or subfolder.

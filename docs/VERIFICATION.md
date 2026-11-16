@@ -54,4 +54,4 @@ Mac 开发应用、打包应用及最终 DMG 经只读挂载后复制出的应�
 
 Windows x64 安装包在 Mac 交叉生成，核对 PE 架构、Canvas、OCR/PDF 资源和校验值。尚未在 Windows 实机执行：安装/升级、断网运行、100%/150%/200% 缩放、卸载；不得将交叉构建写成 Windows 实机通过。
 
-候选版本未签名、未公证，未运行远程 GitHub CI，未公开仓库、Release、官网或商店。真实用户试用和持续数日运行仍是后续验证。
+候选版本未签名、未公证。2026-11-16 补充：公开仓库的 [GitHub 源码检查](https://github.com/RicardoMinglu/material-finder/actions/runs/43733118542) 已在 Windows 和 macOS 通过依赖安装、资源提取、类型检查、测试和构建。该检查不等于安装包手工验收。预发布下载入口见 README；官网与商店未发布。真实用户试用和持续数日运行仍是后续验证。

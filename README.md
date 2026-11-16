@@ -1,5 +1,7 @@
 # 资料快搜 · Material Finder
 
+[![Check source](https://github.com/RicardoMinglu/material-finder/actions/workflows/check.yml/badge.svg)](https://github.com/RicardoMinglu/material-finder/actions/workflows/check.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 离线搜索中文 PDF、扫描件、图片和 Word，直接定位原文。
 
 [English](README.en.md) · [快速使用](docs/quickstart.md) · [技术架构](docs/architecture.md) · [已知限制](docs/limitations.md) · [验证记录](docs/VERIFICATION.md)
@@ -18,6 +20,16 @@
 
 当前版本为 **1.1.0-rc.1 候选版**。支持 Windows 10/11 x64、macOS Apple Silicon；界面为中文。候选安装包未签名、Mac 未公证，系统可能显示发布者验证提示。先核对发行材料中的 SHA-256 与测试记录。
 
+
+| 下载 | 适用环境 | 验证状态 |
+|---|---|---|
+| [Mac 安装包（177 MiB）](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-mac-arm64.dmg) | Apple Silicon（M 系列） | 本机安装包运行、OCR 和断网测试通过 |
+| [Windows 候选包（154 MiB）](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-win-x64.exe) | Windows 10/11 x64 | 手工安装、升级、断网及高缩放验收待完成 |
+
+[版本说明及校验文件](https://github.com/RicardoMinglu/material-finder/releases/tag/v1.1.0-rc.1) · [29 秒演示视频](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo.mp4) · [原创演示资料](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo-fixtures.zip) · [安装与常见问题](docs/faq.md)
+
+普通使用者下载安装包即可，无需下载源码或安装 Node.js。[后续计划与试用反馈](docs/ROADMAP.md)。
+
 1. 安装并打开应用，选择一个资料文件夹。
 2. 输入文字片段；多个关键词用空格分隔，例如 `采购 审批`，表示全部关键词都须出现。
 3. 点击结果查看原文；可复制片段及出处、打开原文件或在文件夹中显示。
@@ -32,6 +44,8 @@
 需要 Node.js **24.11.1**（24.x）和 npm；应用使用者不需要安装开发工具。
 
 ```sh
+git clone https://github.com/RicardoMinglu/material-finder.git
+cd material-finder
 npm ci
 npm run assets
 npm run typecheck

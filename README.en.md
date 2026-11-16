@@ -1,5 +1,7 @@
 # Material Finder · 资料快搜
 
+[![Check source](https://github.com/RicardoMinglu/material-finder/actions/workflows/check.yml/badge.svg)](https://github.com/RicardoMinglu/material-finder/actions/workflows/check.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Search Chinese PDFs, scans, images and Word documents offline, then jump to the original passage.
 
 [中文](README.md) · [Quick start](docs/quickstart.en.md) · [Architecture](docs/architecture.md) · [Verification](docs/VERIFICATION.md)
@@ -12,6 +14,16 @@ Material Finder is a desktop application for finding text in documents already o
 
 **1.1.0-rc.1 is a release candidate**, targeting Windows 10/11 x64 and Apple Silicon macOS. Installers are unsigned and the Mac build is not notarized. Check the SHA-256 file and platform-specific verification status before installing. Cross-building Windows artifacts is not Windows runtime validation.
 
+
+| Download | Platform | Validation status |
+|---|---|---|
+| [Mac installer (177 MiB)](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-mac-arm64.dmg) | Apple Silicon | Packaged runtime, OCR and network-blocked tests passed locally |
+| [Windows candidate (154 MiB)](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/MaterialFinder-1.1.0-rc.1-win-x64.exe) | Windows 10/11 x64 | Manual installation, upgrade, offline and high-DPI acceptance pending |
+
+[Release notes and checksums](https://github.com/RicardoMinglu/material-finder/releases/tag/v1.1.0-rc.1) · [29-second demo](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo.mp4) · [Original demo documents](https://github.com/RicardoMinglu/material-finder/releases/download/v1.1.0-rc.1/material-finder-demo-fixtures.zip) · [Installation FAQ](docs/faq.md)
+
+End users only need an installer; Node.js and the source checkout are for development. See the [roadmap and pilot feedback](docs/ROADMAP.md).
+
 Select one root folder, type a phrase or space-separated keywords, and click a result to inspect its source. All keywords must match. Subfolders are included. Switching roots replaces the index after confirmation and never deletes original documents. Completed pages are searchable while OCR continues.
 
 Supported formats: PDF, PNG, JPEG, WebP, BMP, TIFF, DOC, DOCX and RTF. Word is located by paragraph or embedded image, not original page layout. Images in legacy DOC files are not OCRed. Unlock encrypted files first. Handwriting, equations, stretched images and poor scans are not guaranteed to be recognized.
@@ -21,6 +33,8 @@ Supported formats: PDF, PNG, JPEG, WebP, BMP, TIFF, DOC, DOCX and RTF. Word is l
 Use Node.js **24.11.1** and npm:
 
 ```sh
+git clone https://github.com/RicardoMinglu/material-finder.git
+cd material-finder
 npm ci
 npm run assets
 npm run typecheck
